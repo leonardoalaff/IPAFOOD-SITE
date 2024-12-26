@@ -127,6 +127,7 @@ justify-content: space-between;
     border-radius: 5px;
     transition: 0.3s;
     font-size: 0.9em;
+    border: none;
 }
 .btn-peca-agora:hover {
     background-color: green;
