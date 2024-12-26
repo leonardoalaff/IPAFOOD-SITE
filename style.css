@@ -41,8 +41,9 @@ justify-content: space-between;
     background-color: #f8f8f8;
      width: 10%;
      height: 3px;
-     box-shadow: 0 10px 1px #f8f8f8;
+     box-shadow: 0 10px 0px #f8f8f8;
      transition: 0.3s;
+     border-radius: 10px;
 }
 .menu-mobile::after {
     content: "";
@@ -52,6 +53,7 @@ justify-content: space-between;
     top: 20px;
     height: 3px;
     transition: 0.3s;
+    border-radius: 10px;
 }
 .menu-mobile.active {
     box-shadow: none;
@@ -87,9 +89,10 @@ justify-content: space-between;
 .rolagem-cabecalho {
     width: 100%;
     margin-top: 10vh;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     overflow-x: auto;
+    gap: 40px;
 }
 .img-rolagem-1, .img-rolagem-2, .img-rolagem-3 {
     min-width: 100%;
