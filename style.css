@@ -38,16 +38,16 @@ justify-content: space-between;
 
 .menu-mobile {
     margin: 26px 10px;
-    background-color: #f8f8f8;
+    background-color: #fee500;
      width: 10%;
      height: 3px;
-     box-shadow: 0 10px 0px #f8f8f8;
+     box-shadow: 0 10px 0px #fee500;
      transition: 0.3s;
      border-radius: 10px;
 }
 .menu-mobile::after {
     content: "";
-    background-color: #f8f8f8;
+    background-color: #fee500;
     display: flex;
     position: relative;
     top: 20px;
@@ -70,12 +70,12 @@ justify-content: space-between;
 }
 
 .menu {
-    background-color: #f8f8f8;
+    background-color: #fee500;
     width: 70%;
     height: 100vh;
     position: fixed;
     left: -100%;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 .menu.active {
@@ -88,8 +88,8 @@ justify-content: space-between;
 /************** INÍCIO ROLAGEM DO CABEÇALHO **************/
 .rolagem-cabecalho {
     width: 100%;
-    margin-top: 10vh;
-    height: 30vh;
+    margin-top: 5vh;
+    height: 40vh;
     display: flex;
     overflow-x: auto;
     gap: 40px;
@@ -99,20 +99,20 @@ justify-content: space-between;
     height: 100;
 }
 .img-rolagem-1 {
-    background: url('https://minervafoods.com/wp-content/uploads/2022/12/como_fazer_hamburguer_caseiro_1-3.jpg');
-    background-size: cover;
+    background: url('imagens/HAMBURGUER.svg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-rolagem-2 {
-    background: url('https://t3.ftcdn.net/jpg/07/01/74/32/360_F_701743212_hGsccB5HuJVRQi9dDzaFOR5hyVzcJQaj.jpg');
-    background-size: cover;
+    background: url('imagens/HOTDOG.svg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-rolagem-3 {
-    background: url('https://acaifruitshow.com.br/wp-content/uploads/2021/09/FT-162.png');
-    background-size: cover;
+    background: url('imagens/AÇAI.svg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
