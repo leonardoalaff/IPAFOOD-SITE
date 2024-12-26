@@ -79,6 +79,7 @@ justify-content: space-between;
     left: -100%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
+    z-index: 5;
 }
 .menu.active {
     left: 0;
@@ -133,25 +134,45 @@ justify-content: space-between;
 }
 
 .rolagem-cabecalho {
+    align-items: end;
     width: 100%;
-    margin-top: 5vh;
     height: 40vh;
     display: flex;
     overflow-x: auto;
-    gap: 40px;
 }
-.img-rolagem-1, .img-rolagem-2, .img-rolagem-3 {
-    min-width: 100%;
-    height: 100;
+
+.bg-img-rolagem {
+    background-color: blue;
+    min-width: 50%;
+    height: 27vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+.bg-img-rolagem-1 {
+    background-color: black;
+}
+.bg-img-rolagem-2 {
+    background-color: red;
+}
+
+.img-rolagem {
+    position: relative;
+    top: -10vh;
+    width: 90%;
+    height: 20vh;
+    border-radius: 50%;
 }
 .img-rolagem-1 {
-    background: url('imagens/HAMBURGUER.svg');
+    background: url('https://png.pngtree.com/png-vector/20240710/ourmid/pngtree-burger-with-floating-ingredient-png-image_13054386.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-rolagem-2 {
-    background: url('imagens/HOTDOG.svg');
+    background: url('https://i.pinimg.com/originals/d5/85/2f/d5852fcbfcc5a14c662d11eb1e5da1fe.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -166,7 +187,8 @@ justify-content: space-between;
 }
 
 .btn-peca-agora {
-    background-color: #fee500;
+    background-color: black;
+    color: #f8f8f8;
     padding: 10px;
     width: 80%;
     border-radius: 5px;
