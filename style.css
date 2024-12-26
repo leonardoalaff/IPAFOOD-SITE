@@ -61,16 +61,18 @@ justify-content: space-between;
     position: relative;
     transform: rotate(45deg);
     transition: 0.3s;
+    background-color: red;
 }
 .menu-mobile.active::after {
     transform: rotate(-90deg);
     position: relative;
     top: 0;
     transition: 0.3s;
+    background-color: red;
 }
 
 .menu {
-    background-color: #fee500;
+    background-color: red;
     width: 70%;
     height: 100vh;
     position: fixed;
@@ -112,7 +114,6 @@ justify-content: space-between;
     align-items: center;
     overflow: auto;
     gap: 5%;
-    position: relative;
 }
 .texto-rolagem {
     transition: 0.5s;
@@ -121,7 +122,7 @@ justify-content: space-between;
     transform: scale(1.1);
     font-weight: bold;
     transition: 0.5s;
-    text-decoration: underline 2px black;
+    text-decoration: underline 2px red;
     text-underline-offset: 10px;
 }
 .texto-rolagem-1 {
