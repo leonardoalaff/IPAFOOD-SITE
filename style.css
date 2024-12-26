@@ -39,7 +39,7 @@ justify-content: space-between;
 .menu-mobile {
     margin: 26px 10px;
     background-color: #f8f8f8;
-     width: 13%;
+     width: 10%;
      height: 3px;
      box-shadow: 0 10px 1px #f8f8f8;
      transition: 0.3s;
