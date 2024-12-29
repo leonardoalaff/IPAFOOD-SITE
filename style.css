@@ -75,7 +75,7 @@ justify-content: space-between;
 }
 
 .menu {
-    background-color: rgb(26, 25, 25);
+    background-color: white;
     width: 70%;
     height: 100vh;
     position: fixed;
@@ -87,6 +87,49 @@ justify-content: space-between;
 .menu.active {
     left: 0;
     transition: 0.3s;
+}
+
+.lista-menu {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.texto-menu {
+    list-style: none;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+.texto-menu:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+    margin: 10px;
+}
+.texto-menu img {
+    width: 10%;
+    height: 100%;
+}
+.texto-menu:hover > img {
+    animation: rodar 3s ease-in-out infinite;
+}
+
+@keyframes rodar {
+    0% {
+        transform: translateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 /************** FIM NAVEGAÇÃO **************/
 
@@ -122,13 +165,10 @@ justify-content: space-between;
     gap: 5%;
 }
 .texto-rolagem {
-    transition: 0.5s;
     color: rgb(54, 54, 54);
 }
 .texto-rolagem:hover {
-    transform: scale(1.1);
     font-weight: bold;
-    transition: 0.5s;
     text-decoration: underline 2px rgb(255, 5, 5);
     text-underline-offset: 10px;
 }
@@ -148,7 +188,6 @@ justify-content: space-between;
 }
 
 .bg-img-rolagem {
-    background-color: blue;
     min-width: 50%;
     height: 27vh;
     margin-left: 5%;
@@ -193,19 +232,40 @@ justify-content: space-between;
 }
 
 .btn-peca-agora {
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(27, 24, 24);
     color: #f8f8f8;
     padding: 10px;
-    width: 80%;
+    width: 30%;
     border-radius: 5px;
     transition: 0.3s;
     font-size: 0.9em;
     border: none;
-}
-.btn-peca-agora:hover {
-    background-color: green;
-    color: white;
-    transform: scale(1.1);
-    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /************** FIM ROLAGEM DO CABEÇALHO **************/
+
+
+/************** INÍCIO BOTÃO WHATSAPP **************/
+.wpp {
+    background: url('https://img.lovepik.com/png/20231104/whatsapp-icon-Software-remind-chat_482612_wh1200.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    top: 89vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+/************** INÍCIO SESSÃO 1 **************/
+.sessao-1 {
+    width: 100%;
+    height: 100vh;
+}
