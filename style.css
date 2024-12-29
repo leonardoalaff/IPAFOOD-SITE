@@ -125,10 +125,10 @@ justify-content: space-between;
         transform: translateY(0deg);
     }
     50% {
-        transform: rotateY(180deg);
+        transform: rotateY(-180deg);
     }
     100% {
-        transform: rotateY(360deg);
+        transform: rotateY(-360deg);
     }
 }
 /************** FIM NAVEGAÇÃO **************/
