@@ -111,6 +111,7 @@ justify-content: space-between;
     transition: 0.3s ease-in-out;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
     margin: 10px;
+    border-radius: 30px;
 }
 .texto-menu img {
     width: 10%;
