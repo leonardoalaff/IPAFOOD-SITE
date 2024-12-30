@@ -211,6 +211,10 @@ justify-content: space-between;
     height: 20vh;
     border-radius: 50%;
 }
+
+.preco-lanche {
+}
+
 .img-rolagem-1 {
     background: url('https://png.pngtree.com/png-vector/20240710/ourmid/pngtree-burger-with-floating-ingredient-png-image_13054386.png');
     background-size: contain;
