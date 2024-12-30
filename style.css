@@ -18,6 +18,9 @@
 
 body {
     background-color: #f8f8f8;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 header {
@@ -118,19 +121,8 @@ justify-content: space-between;
     height: 100%;
 }
 .texto-menu:hover > img {
-    animation: rodar 3s ease-in-out infinite;
-}
-
-@keyframes rodar {
-    0% {
-        transform: translateY(0deg);
-    }
-    50% {
-        transform: rotateY(-180deg);
-    }
-    100% {
-        transform: rotateY(-360deg);
-    }
+    transition: 1.3s;
+    transform: rotateY(360deg);
 }
 /************** FIM NAVEGAÇÃO **************/
 
