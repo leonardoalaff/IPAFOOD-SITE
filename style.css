@@ -44,8 +44,8 @@ justify-content: space-between;
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20%;
-    height: 3vh;
+    width: 30%;
+    height: 4vh;
     position: relative;
     top: 75vh;
     right: 72%;
@@ -58,9 +58,9 @@ justify-content: space-between;
 .ball {
     background-color: rgb(255, 255, 255);
     position: relative;
-    left: -22%;
-    width: 20px;
-    height: 20px;
+    left: -30%;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     transition: 0.5s;
 }
@@ -70,8 +70,8 @@ justify-content: space-between;
     background-position: left top 40%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20%;
-    height: 3vh;
+    width: 30%;
+    height: 4vh;
     position: relative;
     top: 75vh;
     right: 72%;
@@ -82,7 +82,7 @@ justify-content: space-between;
 }
 .ball.active {
     background-color: #e9da05;
-    transform: translate(103%);
+    transform: translate(130%);
     transition: 0.5s;
 }
 
