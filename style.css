@@ -216,7 +216,7 @@ justify-content: space-between;
 .texto-apresentacao.active {
     color: #b0b0b0;
 }
-/************** FIM PRESENTAÇÃO **************/
+/************** FIM APRESENTAÇÃO **************/
 
 
 
@@ -255,10 +255,10 @@ justify-content: space-between;
 
 .bg-img-rolagem {
     min-width: 50%;
-    height: 27vh;
+    height: 25vh;
     margin-left: 5%;
     margin-right: 5%;
-    border-radius: 35px;
+    border-radius: 35px ;
     display: flex;
     justify-content: center;
     align-items: first baseline;
@@ -272,27 +272,44 @@ justify-content: space-between;
 
 .img-rolagem {
     position: relative;
-    left: 17% ;
+    left: 35% ;
     top: -10vh;
     width: 90%;
     height: 20vh;
     border-radius: 50%;
+    transform: scale(2);
 }
 
 .preco-lanche {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.178);
-    width: 50%;
+    background-color: white;
+    width: 150%;
     height: 30px;
     position: relative;
-    color: white;
+    color: rgb(230, 42, 42);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 33%;
-    top: 4vh;
+    right: 5%;
+    border-radius: 10px;
+}
+
+.add-carrinho {
+    background-color: white;
+    color: rgb(230, 42, 42);
+    width: 20%;
+    height: 3vh;
+    position: relative;
+    top: -17.8vh;
+    right: 3%;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.39);
 }
 
 .img-rolagem-1 {
@@ -317,7 +334,7 @@ justify-content: space-between;
 }
 
 .btn-peca-agora {
-    background-color: rgb(27, 24, 24);
+    background-color: #121212;
     color: #f8f8f8;
     padding: 10px;
     width: 30%;
