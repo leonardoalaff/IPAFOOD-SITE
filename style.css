@@ -22,6 +22,10 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
 }
+body.active {
+    background-color: #121212;
+    transition: 0.5s;
+}
 
 header {
 }
@@ -33,6 +37,53 @@ position: relative;
 width: 100%;
 display: flex;
 justify-content: space-between;
+}
+
+.btn-tema {
+    background-image: url('https://cdn.pixabay.com/photo/2021/02/01/17/14/sunrise-5971361_1280.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 3vh;
+    position: relative;
+    top: 75vh;
+    right: 72%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;transition: 0.5s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+}
+.ball {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: -22%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.btn-tema.active {
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/13/10/20/nature-6542721_640.png');
+    background-position: left top 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 3vh;
+    position: relative;
+    top: 75vh;
+    right: 72%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;transition: 0.5s;
+}
+.ball.active {
+    background-color: #e9da05;
+    transform: translate(103%);
+    transition: 0.5s;
 }
 
 .img-logo {
@@ -53,6 +104,12 @@ justify-content: space-between;
      box-shadow: 0 10px 0px black;
      transition: 0.3s;
      border-radius: 10px;
+     transition: 0.5;
+}
+.menu-mobile.active2 {
+    background-color: #b0b0b0;
+    box-shadow: 0 10px 0px #b0b0b0;
+    transition: 0.5;
 }
 .menu-mobile::after {
     content: "";
@@ -63,6 +120,11 @@ justify-content: space-between;
     height: 3px;
     transition: 0.3s;
     border-radius: 10px;
+    transition: 0.5;
+}
+.menu-mobile.active2::after{
+    background-color: #b0b0b0;
+    transition: 0.5;
 }
 .menu-mobile.active {
     box-shadow: none;
@@ -90,6 +152,11 @@ justify-content: space-between;
 .menu.active {
     left: 0;
     transition: 0.3s;
+    
+}
+.menu.active2 {
+    background-color: #121212;
+    color: #b0b0b0;
 }
 
 .lista-menu {
@@ -120,6 +187,9 @@ justify-content: space-between;
     width: 10%;
     height: 100%;
 }
+.icone-menu.active {
+    filter: invert(15%);
+}
 .texto-menu:hover > img {
     transition: 1.3s;
     transform: rotateY(360deg);
@@ -142,6 +212,9 @@ justify-content: space-between;
     color: rgb(230, 42, 42);
     font-weight: bold;
 
+}
+.texto-apresentacao.active {
+    color: #b0b0b0;
 }
 /************** FIM PRESENTAÇÃO **************/
 
